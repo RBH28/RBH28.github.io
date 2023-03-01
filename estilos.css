@@ -1,0 +1,137 @@
+
+*  { 
+    box-sizing: border-box;
+}
+body {
+    background-image: url(Piezas_09.png);
+    background-color: rgb(154, 190, 226);
+}
+img {
+    width: 25%;
+    float: left;
+    border: solid 5px rgb(223, 158, 116);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    position: relative;
+}
+
+
+.persona {
+    width: 100%;
+    float: right;}
+#personal {
+    display: none;
+    width: 50%;   
+    text-align: start;
+    padding: 20px;
+    transform: 50px 0px;
+}
+div.datos_pers {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%
+    ;
+}
+
+h1{
+    font-size: 400%;
+}
+.persona:active #personal {
+    display: block;
+}
+
+#iconos {
+    border:2px;
+    width:50px;
+    height: 50px;
+    display: block;
+    width: 75px;
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 6px 10px;
+    margin-top: 10px;
+    text-align: center;
+    position: top;
+}
+#iconos:hover{
+    background-color:rgb(223, 158, 116);
+    transition: 0.5s;
+    color: red;
+    border: 2px solid grey;
+}
+
+span{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    
+}
+#titulo_fecha {
+    display: none;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline 3px
+}
+#datos_fecha {
+    display: none;
+    scroll-padding-top: initial;
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+#calendario:active #titulo_fecha {
+    display: block;
+}
+
+#calendario:active #datos_fecha {
+    display: block;
+}
+
+#titulo_dir {
+    display: none;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline 3px
+}
+#datos_dir {
+    display: none;
+    scroll-padding-top: initial;
+    font-size: 25px;
+    text-align: center;
+}
+#mapa:active #titulo_dir {
+    display: block;
+}
+
+#mapa:active #datos_dir {
+    display: block;
+}
+
+#titulos_tel {
+    display: none;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline 3px
+}
+#datos_tel {
+    display: none;
+    scroll-padding-top: initial;
+    font-size: 25px;
+    text-align: center;
+}
+#telefono:active #titulos_tel {
+    display: block;
+}
+
+#telefono:active #datos_tel {
+    display: block;
+}
+.iconos {
+    width: 10%;
+    float: initial;
+}
+#calendario {
+    width: 100%;
+    float: left;
+}
